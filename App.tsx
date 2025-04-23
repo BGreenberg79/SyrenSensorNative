@@ -80,7 +80,7 @@ const App = () => {
 		</Authenticator.Provider>
 	);
 };
-
+// Test
 const styles = StyleSheet.create({
 	signOutButton: {
 		alignSelf: "flex-end",
