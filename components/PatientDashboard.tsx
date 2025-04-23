@@ -42,7 +42,7 @@ useEffect(()=>{
 
   return (
     <ScrollView className="flex-1 bg-[#343a40]" contentContainerStyle={{ padding: 20 }}>
-        <Text className="text-white text-3xl ont-bold m-2 p-2">
+        <Text className="text-white text-3xl font-bold m-2 p-2">
             Syren Sensor
         </Text>
 
