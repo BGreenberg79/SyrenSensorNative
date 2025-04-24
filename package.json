@@ -29,6 +29,7 @@
     "@aws-amplify/backend": "^1.14.3",
     "@aws-amplify/backend-cli": "^1.5.0",
     "@babel/core": "^7.25.2",
+    "@expo/webpack-config": "^18.0.0",
     "@react-native-community/cli": "^18.0.0",
     "@types/react": "~18.3.12",
     "@types/react-native": "^0.72.8",
@@ -36,6 +37,8 @@
     "aws-cdk-lib": "^2.180.0",
     "constructs": "^10.4.2",
     "esbuild": "^0.25.2",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.1.6",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   },
