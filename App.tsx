@@ -1,8 +1,8 @@
-
+import "./global.css"
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 import PatientDashboard from './components/PatientDashboard';
-import "./global.css"
+
 
 
 
