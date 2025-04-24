@@ -2,11 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 import PatientDashboard from './components/PatientDashboard';
 
-// Import CSS only for web platform
-import { Platform } from 'react-native';
-if (Platform.OS === 'web') {
-  require('./global.css');
-}
 
 export default function App() {
   return (
