@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
     "autoprefixer": "^10.4.21",
     "aws-amplify": "^6.14.3",
     "axios": "^1.8.4",
@@ -21,9 +22,8 @@
     "react-native-css-interop": "^0.1.22",
     "react-native-reanimated": "3.16.2",
     "react-native-safe-area-context": "4.12.0",
-    "tailwindcss": "3.4.17",
     "react-native-web": "~0.19.13",
-    "@expo/metro-runtime": "~4.0.1"
+    "tailwindcss": "3.4.17"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.14.3",
@@ -31,6 +31,7 @@
     "@babel/core": "^7.25.2",
     "@react-native-community/cli": "^18.0.0",
     "@types/react": "~18.3.12",
+    "@types/react-native": "^0.72.8",
     "aws-cdk": "^2.1003.0",
     "aws-cdk-lib": "^2.180.0",
     "constructs": "^10.4.2",
