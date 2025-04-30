@@ -16,6 +16,7 @@
       "supportsTablet": true
     },
     "android": {
+      "hermes": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -23,7 +24,8 @@
       "package": "com.anonymous.my_amplify_app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
