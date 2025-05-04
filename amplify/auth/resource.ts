@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { referenceAuth } from "@aws-amplify/backend";
 
 const getEnvVar = (name: string): string => {
@@ -14,4 +15,16 @@ export const auth = referenceAuth({
 	authRoleArn: getEnvVar("AUTH_ROLE_ARN"),
 	unauthRoleArn: getEnvVar("UNAUTH_ROLE_ARN"),
 	userPoolClientId: getEnvVar("USER_POOL_CLIENT_ID"),
+=======
+import { defineAuth } from '@aws-amplify/backend';
+
+/**
+ * Define and configure your auth resource
+ * @see https://docs.amplify.aws/gen2/build-a-backend/auth
+ */
+export const auth = defineAuth({
+  loginWith: {
+    email: true,
+  },
+>>>>>>> 10772ed (Initial commit)
 });
