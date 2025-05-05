@@ -9,6 +9,7 @@ export default function App() {
     <View>
       <PatientDashboard/>
       <StatusBar style="auto" />
+      console.log('test')
     </View>
   );
 }
