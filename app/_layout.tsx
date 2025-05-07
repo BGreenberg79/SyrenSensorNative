@@ -17,7 +17,7 @@ export default function Layout() {
         {
           text: "call EMS dispatcher",
           onPress: () => {
-            Linking.openURL('tel:55512345a67') // dummy number in place of 911 to avoid unnecessary waste of public resources during testing or violation of laws
+            Linking.openURL('tel:5551234567') // dummy number in place of 911 to avoid unnecessary waste of public resources during testing or violation of laws
           },
         },
       ],
@@ -33,7 +33,8 @@ export default function Layout() {
         tabBarStyle: { backgroundColor: '#1f2937'},
         tabBarActiveTintColor: '#10b981',
         tabBarLabelStyle: {fontSize: 14},
-      }}>
+      }}
+      initialRouteName='patient-dashboard'>
         <Tabs.Screen
           name="patient-dashboard"
           options={{

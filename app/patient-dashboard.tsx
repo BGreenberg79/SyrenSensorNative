@@ -95,12 +95,6 @@ useEffect(()=>{
                     Weight: <Text className="font-normal">{patient.weight}</Text>
                 </Text>
 
-                {Object.entries(patient).map(([key, value]) =>(
-                    <Text key={key} className="text-white mb-1 capitalize">
-                        {key}: <Text className='font-normal'>{value}</Text>
-                    </Text>
-                ))}
-
                 <Text className="text-white text-lg font-semibold mt-5 mb-3">Patient Vitals:</Text>
                 {Object.entries(vitals).map(([key, value]) =>(
                     <Text key={key} className="text-white mb-2 capitalize">

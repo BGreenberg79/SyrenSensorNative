@@ -1,7 +1,7 @@
 import { Text, View, ScrollView, TextInput, Button, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 import { useState, useEffect } from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 import { User } from '../models/user'
 
 export default function settings(){
